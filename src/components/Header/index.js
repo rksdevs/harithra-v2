@@ -2,33 +2,38 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo2.jpeg";
 
 const Headers = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 1rem 3rem;
   background-color: var(--nav);
   color: var(--white);
   position: relative;
   z-index: 500;
   @media only Screen and (max-width: 64em) {
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 1rem;
   }
   @media only Screen and (max-width: 40em) {
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 0.5rem;
   }
 `;
 
 const Logo = styled.a`
   display: flex;
   align-items: center;
-  width: 2rem;
+  width: 5rem;
   height: auto;
   cursor: pointer;
+  @media only Screen and (max-width: 48em) {
+    width: 2rem;
+  }
+
   img {
     margin-right: 0.5rem;
+    border-radius: 20px;
   }
 `;
 
@@ -234,8 +239,8 @@ const Header = () => {
   return (
     <Headers ref={ref}>
       <Logo>
-        <img src={logo} alt="CodeBucks" />
-        <h3>Harithra Constructions</h3>
+        <img src={logo} alt="Harithra Engineering" />
+        <h3>Harithra Engineering</h3>
       </Logo>
       <Nav>
         <a href="#home" onClick={(e) => scrollUp("home", e)}>

@@ -27,6 +27,9 @@ const Image = styled.div`
   background-size: cover;
   background-position: top;
   filter: drop-shadow(0px -3px 3px var(--nav2));
+  @media only Screen and (max-width: 48em) {
+    display: none;
+  }
 `;
 
 const TEXT = styled.h4`
