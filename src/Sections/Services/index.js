@@ -348,7 +348,6 @@ const Services = () => {
             <h5>
               We build the houses you design the way you want. Starting from
               laying foundation to interior decoration and design, we do it all.
-              We also do renovatrio existing buildings and reno
             </h5>
           }
         />

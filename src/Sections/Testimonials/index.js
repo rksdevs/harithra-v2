@@ -84,25 +84,25 @@ const Testimonials = () => {
       <Carousal>
         <Slider {...settings}>
           <Card
-            text="Harithra Construction is exactly what I needed to build my house. They are extremely professional, they listened my ideas, suggested a few changes to make it more beaautiful. I'm extremely happy with their services."
+            text="Harithra Construction are extremely professional, they listened my ideas, suggested changes to make it more beaautiful. I'm extremely happy with their services."
             name="Jane Doe"
             image="avatar-1"
           />
 
           <Card
-            text="Harithra Construction is exactly what I needed to build my house. They are extremely professional, they listened my ideas, suggested a few changes to make it more beaautiful. I'm extremely happy with their services."
+            text="Harithra Construction are extremely professional, they listened my ideas, suggested changes to make it more beaautiful. I'm extremely happy with their services."
             name="John Doe"
             image="avatar-2"
           />
 
           <Card
-            text="Harithra Construction is exactly what I needed to build my house. They are extremely professional, they listened my ideas, suggested a few changes to make it more beaautiful. I'm extremely happy with their services."
+            text="Harithra Construction are extremely professional, they listened my ideas, suggested changes to make it more beaautiful. I'm extremely happy with their services."
             name="Jolly Doe"
             image="avatar-3"
           />
 
           <Card
-            text="Harithra Construction is exactly what I needed to build my house. They are extremely professional, they listened my ideas, suggested a few changes to make it more beaautiful. I'm extremely happy with their services."
+            text="Harithra Construction are extremely professional, they listened my ideas, suggested changes to make it more beaautiful. I'm extremely happy with their services."
             name="Jimmy Doe"
             image="avatar-4"
           />

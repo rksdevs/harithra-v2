@@ -147,12 +147,9 @@ const About = () => {
 
             <Text>
               We help our customers to bring their dream home into the reality.
-              We listen to their plans & ideas, we suggest the best possible
-              materials for their houses, and craft a home that they can cherish
-              it forever. High quality construction materials, innovative
-              building techniques, technically advanced equipments, and highly
-              experienced engineers, together we build our projects aand bring
-              them into life.
+              High quality construction materials, innovative building
+              techniques, technically advanced equipments, and highly
+              experienced engineers, together we build awesome projects.
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />
