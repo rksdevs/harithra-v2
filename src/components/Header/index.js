@@ -28,7 +28,7 @@ const Logo = styled.a`
   height: auto;
   cursor: pointer;
   @media only Screen and (max-width: 48em) {
-    width: 2rem;
+    width: 3rem;
   }
 
   img {
